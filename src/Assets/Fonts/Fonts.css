@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'InvolveRegular';
+    src: url('./InvolveRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Involve-Bold';
+    src: url('./Involve-Bold.ttf') format('truetype');
+    font-weight: Bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Involve-BoldOblique';
+    src: url('./Involve-BoldOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Involve-Medium';
+    src: url('./Involve-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Involve-MediumOblique';
+    src: url('./Involve-MediumOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Involve-Oblique';
+    src: url('./Involve-Oblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Involve-SemiBold';
+    src: url('./Involve-SemiBold.ttf') format('truetype');
+    font-weight: Bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Involve-SemiBoldOblique';
+    src: url('./Involve-SemiBoldOblique.ttf') format('truetype');
+    font-weight: Bold;
+    font-style: normal;
+}

@@ -1,0 +1,39 @@
+
+:root{
+  --BackgroundColorMain:#FAFAFA;
+  --TextColorWhite:#FAFAFA;
+  --TextColorBlack:#000000;
+  --ButtonColorMain:#FE6807;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: InvolvedRegular,sans-serif;
+  font-size:16px;
+}
+.app-wrapper{
+  max-width: 100%;
+}
+.main-style-button{
+  background-color:var(--ButtonColorMain);
+  color: var(--TextColorWhite);
+  border:none;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  text-transform:uppercase;
+  cursor: pointer;
+}
+.main-style-title{
+  font-size: 48px;
+  font-weight: Bold;
+  line-height: 50px;
+  text-align: left;
+}
+.main-style-paragraph{
+  font-size: 20px;
+  line-height: 26px;
+  text-align: left;
+}
