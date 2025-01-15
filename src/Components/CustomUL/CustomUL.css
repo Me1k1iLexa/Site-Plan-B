@@ -1,0 +1,25 @@
+.custom-UL{
+    list-style: none;
+    padding-left: 15px;
+}
+
+.custom-Ul-item{
+    position: relative;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+.custom-UL-marker{
+    position: relative;
+    left: 0;
+    top: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
