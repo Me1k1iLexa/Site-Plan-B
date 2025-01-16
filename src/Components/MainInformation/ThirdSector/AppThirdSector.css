@@ -1,0 +1,25 @@
+.third-sector {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 100px auto;
+}
+.third-sector-item {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 450px;
+  gap: 40px;
+}
+.third-sector-item-title {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+.third-sector-item-description {
+  font-family: Involve-Oblique, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}

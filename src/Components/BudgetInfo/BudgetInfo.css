@@ -1,0 +1,55 @@
+.budget-info-container {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  margin: 150px auto;
+  gap: 40px;
+  align-items: center;
+}
+.budget-title {
+  text-align: center;
+  max-width: 900px;
+}
+.budget-paragraph {
+  text-align: center;
+  max-width: 700px;
+}
+.budget-steps {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-top: 80px;
+}
+.budget-steps-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.budget-steps-title {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 26px;
+  text-align: center;
+}
+.budget-steps-description {
+  font-family: Involve-Medium, sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+}
+.budget-steps-button {
+  margin-top: 80px;
+  margin-bottom: 120px;
+}
+.budget-steps-button button {
+  width: 160px;
+  height: 40px;
+}
+.budget-button {
+  margin-top: 80px;
+}
+.budget-button button {
+  width: 260px;
+  height: 40px;
+}

@@ -1,0 +1,20 @@
+.fourth-sector {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+  width: 1200px;
+  margin: 100px auto;
+}
+.fourth-sector-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.fourth-sector-button button {
+  width: 260px;
+  height: 40px;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+}
