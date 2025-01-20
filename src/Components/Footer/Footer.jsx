@@ -6,13 +6,18 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-content">
-          <img src={AppLogotype} className="AppLogotype" alt="Logotype" />
+          <div>
+            <img src={AppLogotype} className="AppLogotype" alt="Logotype" />
+          </div>
           <div className="main-style-paragraph footer-paragraph">
             Подпишитесь на нашу рассылку новостей, чтобы получать последние
             обновления функций и релизов.
           </div>
           <div className="footer-submit">
-            <input className="footer-input" />
+            <input
+              className="footer-input"
+              placeholder="Ваш адрес электронной почты здесь"
+            />
             <button className="main-style-button" type="submit">
               Присоединиться
             </button>
@@ -41,7 +46,9 @@ const Footer = () => {
         <div className="footer-contact">
           <div className="footer-contact-text">Свяжитесь с нами</div>
           <div className="footer-contact-text">
-            <img src={TelegramMarker} alt="TeleramMarker" />
+            <div>
+              <img src={TelegramMarker} alt="TeleramMarker" />
+            </div>
             <a href="https://t.me/kkrevettka">Telegram</a>
           </div>
         </div>
